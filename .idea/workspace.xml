@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3e8a16f7-3a9d-48fc-8525-030e35d80e72" name="Changes" comment="4/5/22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/data/api/TodoServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/data/api/TodoServiceStub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +42,60 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TodoBusinessImplStubTest.testRetrieveTodosRelatedToSpring_usingAStub">
-    <configuration name="FirstMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.in28minutes.business" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TodoBusinessImplStubTest">
+    <configuration name="TodoBusinessImplMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.in28minutes.mockito.*" />
+          <option name="PATTERN" value="com.in28minutes.business.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.in28minutes.mockito" />
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.mockito.FirstMockitoTest" />
+      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoBusinessImplStubTest.testRetrieveTodosRelatedToSpring_usingAStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingAMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockTest" />
+      <option name="METHOD_NAME" value="testRetrieveTodosRelatedToSpring_usingAMock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingAMock2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockTest" />
+      <option name="METHOD_NAME" value="testRetrieveTodosRelatedToSpring_usingAMock2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoBusinessImplStubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-course" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +105,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.in28minutes.business" />
       <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplStubTest" />
-      <option name="METHOD_NAME" value="testRetrieveTodosRelatedToSpring_usingAStub" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoBusinessImplStubTest.testRetrieveTodosRelatedToSpring_usingAStub2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplStubTest" />
+      <option name="METHOD_NAME" value="testRetrieveTodosRelatedToSpring_usingAStub2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,8 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoBusinessImplStubTest.testRetrieveTodosRelatedToSpring_usingAStub" />
-        <item itemvalue="JUnit.FirstMockitoTest" />
+        <item itemvalue="JUnit.TodoBusinessImplStubTest" />
+        <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingAMock2" />
+        <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingAMock" />
+        <item itemvalue="JUnit.TodoBusinessImplMockTest" />
+        <item itemvalue="JUnit.TodoBusinessImplStubTest.testRetrieveTodosRelatedToSpring_usingAStub2" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651605245083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4/5/22">
+      <created>1651665880851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651665880851</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4/5/22">
+      <created>1651665887502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651665887502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,5 +183,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4/5/22" />
     <option name="LAST_COMMIT_MESSAGE" value="4/5/22" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
