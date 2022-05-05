@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e8a16f7-3a9d-48fc-8525-030e35d80e72" name="Changes" comment="4/5/22">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockitoInjectMockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
       <recent name="com.in28minutes.business" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListTest.letsMockList_UsingBBD">
+  <component name="RunManager" selected="JUnit.TodoBusinessImplMockitoInjectMockTest">
     <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito-course" />
       <extension name="coverage">
@@ -59,22 +58,6 @@
       <option name="PACKAGE_NAME" value="com.in28minutes.business" />
       <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.ListTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest.letsMockListGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mockito-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.in28minutes.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.ListTest" />
-      <option name="METHOD_NAME" value="letsMockListGet" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,13 +110,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoBusinessImplMockitoInjectMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockitoInjectMockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoBusinessImplMockitoInjectMockTest" />
         <item itemvalue="JUnit.ListTest.letsMockList_UsingBBD" />
         <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingBBD" />
         <item itemvalue="JUnit.ListTest" />
         <item itemvalue="JUnit.ListTest.letsMockListGet2" />
-        <item itemvalue="JUnit.ListTest.letsMockListGet" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651734426160</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="4/5/22">
+      <created>1651743476432</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651743476432</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
