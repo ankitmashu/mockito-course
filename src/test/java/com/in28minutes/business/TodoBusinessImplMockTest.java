@@ -6,7 +6,10 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 
 public class TodoBusinessImplMockTest {
@@ -43,6 +46,24 @@ public class TodoBusinessImplMockTest {
 
         assertEquals(0,filteredTodos.size());
 
+    }
+
+    @Test
+    public void testRetrieveTodosRelatedToSpring_usingBBD(){
+        //Given
+        TodoService todoServiceMock = mock(TodoService.class);
+        var todos= Arrays.asList("Learn Spring MVC","Learn Spring","Learn to Dance");
+        given(todoServiceMock.retrieveTodos("Dummy")).willReturn(todos);
+        TodoBusinessImpl todoBusinessImpl = new TodoBusinessImpl(todoServiceMock);
+
+        //When
+        var filteredTodos=
+                todoBusinessImpl.retrieveTodosRelatedToSpring("Dummy");
+
+        //Then
+        assertEquals(2,filteredTodos.size());
+        //or we can use matcher function
+        //assertThat(filteredTodos.size(),is(2));
     }
 
 }
