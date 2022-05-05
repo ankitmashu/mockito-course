@@ -18,9 +18,20 @@ public class HamcrestMatcherTest {
         assertThat(scores,hasItems(99,100));
         //assertThat(scores,hasItems(103));
 
-        //Every item : >90
+        //Every item : >90 conditons
         assertThat(scores,everyItem(greaterThan(90)));
-        assertThat(scores,everyItem(lessThan(90)));
+        assertThat(scores,everyItem(lessThan(190)));
+
+        //String related assert
+        assertThat("",isEmptyString());
+        assertThat(null,isEmptyOrNullString());
+
+        //Arrays
+        Integer[] marks={1,2,3};
+        assertThat(marks,arrayWithSize(3));
+        assertThat(marks,arrayContaining(1,2,3));
+        assertThat(marks,arrayContainingInAnyOrder(1,3,2));
+
 
     }
 }
